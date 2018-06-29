@@ -33,12 +33,10 @@ const styles = StyleSheet.create({
     padding: 20,
     // backgroundImage: url('CGMlogo.png'),
     backgroundColor: '#000000',
-  //   // borderColor: '#EEEEEE',
-  //   borderWidth: 2,
   },
-  // greeting: {
-  //   fontSize: 30,
-  // },
+  greeting: {
+    fontSize: 30,
+  },
 });
 
 AppRegistry.registerComponent('VRapp', () => VRapp);
