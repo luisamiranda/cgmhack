@@ -11,10 +11,11 @@ TODO: Guide users through getting your code up and running on their own system. 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
+Dependencies:
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- [ReactJS](https://reactjs.org/)
+- [React 360](https://facebook.github.io/react-360/)
+
+# Contribute
+TODO: Explain how other users and developers can contribute to make your code better. 
