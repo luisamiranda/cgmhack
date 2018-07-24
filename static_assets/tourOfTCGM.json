@@ -108,30 +108,45 @@
             }
          ]
       },
-      "112392":{
-         "rotationOffset": 80,
-         "uri":"the-chester--v112392.prefilter.jpg",
+      "004":{
+        "rotationOffset": -30,
+        "uri":"004_Outside4.jpg",
+        "tooltips":[
+           {
+              "text":"Floor Hallway 1",
+              "rotationY": 21.347,
+              "linkedPhotoId":"005"
+           },
+           {
+              "text":"Outside 3",
+              "rotationY": 117.441,
+              "linkedPhotoId":"003"
+           },
+           {
+              "type": "panelimage",
+              "rotationY": 290,
+              "width": 1.280,
+              "height":0.850,
+              "source":"beer-cheers.jpg",
+              "text": "The Chester Biergarten is ideal for group dining and social gatherings. Enjoy casual picnic-table seating and views of the historic Meatpacking District.",
+              "attribution": "Photo by yutacar on upslash",
+              "attributionUri": "https://unsplash.com/photos/JKMnm3CIncw"
+           }
+        ]
+     },
+      "005":{
+         "rotationOffset": 90,
+         "uri":"005_FloorHallway1.jpg",
          "tooltips":[
             {
-               "text":"The Snug",
-               "rotationY": -11.33789063,
-               "linkedPhotoId":"112371"
+               "text":"Floor 1 Room 1-1",
+               "rotationY": -115,
+               "linkedPhotoId":"006"
             },
             {
-               "text":"Biergarten",
-               "rotationY": -112.2363281,
-               "linkedPhotoId":"112351"
-            }
-         ]
-      },
-      "112399":{
-         "rotationOffset": 90,
-         "uri":"the-chester--v112399.prefilter.jpg",
-         "tooltips":[
-            {
-               "text":"Restaurant",
-               "rotationY": -115,
-               "linkedPhotoId":"002"
+                "text":"Outside 4",
+                "rotationY": 117.441,
+                "linkedPhotoId":"004"
             },
             {
                "type": "video",
@@ -152,14 +167,19 @@
             }
          ]
       },
-      "112371":{
+      "006":{
          "rotationOffset": -20,
-         "uri":"the-chester--v112371.prefilter.jpg",
+         "uri":"006_Floor1Room1-1.jpg",
          "tooltips":[
             {
-               "text":"Biergarten",
+               "text":"Floor 1 Room 1-2",
                "rotationY": -92.02148438,
-               "linkedPhotoId":"112392"
+               "linkedPhotoId":"007"
+            },
+            {
+                "text":"Floor Hallway 1",
+                "rotationY": 117.441,
+                "linkedPhotoId":"005"
             },
             {
                "type": "textblock",
@@ -170,32 +190,453 @@
             }
          ]
       },
-      "004":{
+      "007":{
          "rotationOffset": 140,
-         "uri":"004_Outside4.jpg",
+         "uri":"007_Floor1Room1-2.jpg",
          "tooltips":[
             {
-               "text":"Outside 3",
+               "text":"Floor 1 Room 1-3",
                "rotationY": 29.348,
-               "linkedPhotoId":"003"
+               "linkedPhotoId":"008"
+            },
+            {
+                "text":"Floor 1 Room 1-1",
+                "rotationY": 117.441,
+                "linkedPhotoId":"006"
             }
          ]
       },
-      "112351":{
+      "008":{
          "rotationOffset": -80,
-         "uri":"the-chester--v112351.prefilter.jpg",
+         "uri":"008_Floor1Room1-3.jpg",
          "tooltips":[
             {
-               "text":"Biergarten",
+               "text":"Floor 1 Room 2-1",
                "rotationY": -102.793,
-               "linkedPhotoId":"112392"
+               "linkedPhotoId":"009"
             },
             {
-               "text":"Outside 3",
+               "text":"Floor 1 Room 1-2",
                "rotationY": 63.843,
-               "linkedPhotoId":"003"
+               "linkedPhotoId":"007"
             }
          ]
-      }
+      },
+      "009":{
+        "rotationOffset": -80,
+        "uri":"009_Floor1Room2-1.jpg",
+        "tooltips":[
+           {
+              "text":"Floor 1 Room 2-2",
+              "rotationY": -102.793,
+              "linkedPhotoId":"010"
+           },
+           {
+              "text":"Floor 1 Room 1-3",
+              "rotationY": 63.843,
+              "linkedPhotoId":"007"
+           }
+        ]
+     }
+   },
+   "010":{
+    "rotationOffset": -80,
+    "uri":"010_Floor1Room2-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 1 Room 3-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"011"
+       },
+       {
+          "text":"Floor 1 Room 2-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"009"
+       }
+    ]
+   },
+   "011":{
+    "rotationOffset": -80,
+    "uri":"011_Floor1Room3-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 1 Room 3-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"012"
+       },
+       {
+          "text":"Floor 1 Room 2-2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"010"
+       }
+    ]
+   },
+   "012":{
+    "rotationOffset": -80,
+    "uri":"012_Floor1Room3-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 1 Staircase",
+          "rotationY": -102.793,
+          "linkedPhotoId":"013"
+       },
+       {
+          "text":"Floor 1 Room 3-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"011"
+       }
+    ]
+   },
+   "013":{
+    "rotationOffset": -80,
+    "uri":"013_Floor1Staircase.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Hallway 1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"014"
+       },
+       {
+          "text":"Floor 1 Room 3-2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"012"
+       }
+    ]
+   },
+   "014":{
+    "rotationOffset": -80,
+    "uri":"014_Floor2Hallway1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Hallway 2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"015"
+       },
+       {
+          "text":"Floor 1 Staircase",
+          "rotationY": 63.843,
+          "linkedPhotoId":"013"
+       }
+    ]
+   },
+   "015":{
+    "rotationOffset": -80,
+    "uri":"015_Floor2Hallway2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Hallway 3",
+          "rotationY": -102.793,
+          "linkedPhotoId":"016"
+       },
+       {
+          "text":"Floor 2 Hallway 1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"014"
+       }
+    ]
+   },
+   "016":{
+    "rotationOffset": -80,
+    "uri":"016_Floor2Hallway3.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 1-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"017"
+       },
+       {
+          "text":"Floor 2 Hallway 2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"015"
+       }
+    ]
+   },
+   "017":{
+    "rotationOffset": -80,
+    "uri":"017_Floor2Room1-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 1-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"018"
+       },
+       {
+          "text":"Floor 2 Hallway 3",
+          "rotationY": 63.843,
+          "linkedPhotoId":"016"
+       }
+    ]
+   },
+   "018":{
+    "rotationOffset": -80,
+    "uri":"018_Floor2Room1-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 1-3",
+          "rotationY": -102.793,
+          "linkedPhotoId":"019"
+       },
+       {
+          "text":"Floor 2 Room 1-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"017"
+       }
+    ]
+   },
+   "019":{
+    "rotationOffset": -80,
+    "uri":"019_Floor2Room1-3.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 2-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"020"
+       },
+       {
+          "text":"Floor 2 Room 1-2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"018"
+       }
+    ]
+   },
+   "020":{
+    "rotationOffset": -80,
+    "uri":"020_Floor2Room2-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 2-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"021"
+       },
+       {
+          "text":"Floor 2 Room 1-3",
+          "rotationY": 63.843,
+          "linkedPhotoId":"019"
+       }
+    ]
+   },
+   "021":{
+    "rotationOffset": -80,
+    "uri":"021_Floor2Room2-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 2-3",
+          "rotationY": -102.793,
+          "linkedPhotoId":"022"
+       },
+       {
+          "text":"Floor 2 Room 2-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"020"
+       }
+    ]
+   },
+   "022":{
+    "rotationOffset": -80,
+    "uri":"022_Floor2Room2-3.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 3-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"023"
+       },
+       {
+          "text":"Floor 2 Room 2-2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"021"
+       }
+    ]
+   },
+   "023":{
+    "rotationOffset": -80,
+    "uri":"023_Floor2Room3-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 3-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"024"
+       },
+       {
+          "text":"Floor 2 Room 2-3",
+          "rotationY": 63.843,
+          "linkedPhotoId":"022"
+       }
+    ]
+   },
+   "024":{
+    "rotationOffset": -80,
+    "uri":"024_Floor2Room3-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 3-3",
+          "rotationY": -102.793,
+          "linkedPhotoId":"025"
+       },
+       {
+          "text":"Floor 2 Room 3-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"023"
+       }
+    ]
+   },
+   "025":{
+    "rotationOffset": -80,
+    "uri":"025_Floor2Room3-3.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 3-3a",
+          "rotationY": -102.793,
+          "linkedPhotoId":"026"
+       },
+       {
+          "text":"Floor 2 Room 3-2",
+          "rotationY": 63.843,
+          "linkedPhotoId":"024"
+       }
+    ]
+   },
+   "026":{
+    "rotationOffset": -80,
+    "uri":"026_Floor2Room3-3a.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Room 3-4",
+          "rotationY": -102.793,
+          "linkedPhotoId":"027"
+       },
+       {
+          "text":"Floor 2 Room 3-3",
+          "rotationY": 63.843,
+          "linkedPhotoId":"025"
+       }
+    ]
+   },
+   "027":{
+    "rotationOffset": -80,
+    "uri":"027_Floor2Room3-4.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 2 Staircase",
+          "rotationY": -102.793,
+          "linkedPhotoId":"028"
+       },
+       {
+          "text":"Floor 2 Room 3-3a",
+          "rotationY": 63.843,
+          "linkedPhotoId":"026"
+       }
+    ]
+   },
+   "028":{
+    "rotationOffset": -80,
+    "uri":"028_Floor2Staircase.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Hallway 1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"029"
+       },
+       {
+          "text":"Floor 2 Room 3-4",
+          "rotationY": 63.843,
+          "linkedPhotoId":"027"
+       }
+    ]
+   },
+   "029":{
+    "rotationOffset": -80,
+    "uri":"029_Floor3Hallway1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 1-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"030"
+       },
+       {
+          "text":"Floor2Staircase",
+          "rotationY": 63.843,
+          "linkedPhotoId":"028"
+       }
+    ]
+   },
+   "030":{
+    "rotationOffset": -80,
+    "uri":"030_Floor3Room1-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 1-1a",
+          "rotationY": -102.793,
+          "linkedPhotoId":"031"
+       },
+       {
+          "text":"Floor 3 Hallway 1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"029"
+       }
+    ]
+   },
+   "031":{
+    "rotationOffset": -80,
+    "uri":"031_Floor3Room1-1a.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 1-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"032"
+       },
+       {
+          "text":"Floor 3 Room 1-1",
+          "rotationY": 63.843,
+          "linkedPhotoId":"030"
+       }
+    ]
+   },
+   "032":{
+    "rotationOffset": -80,
+    "uri":"032_Floor3Room1-2.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 1-3",
+          "rotationY": -102.793,
+          "linkedPhotoId":"032"
+       },
+       {
+          "text":"Floor 3 Room 1-1a",
+          "rotationY": 63.843,
+          "linkedPhotoId":"031"
+       }
+    ]
+   },
+   "033":{
+    "rotationOffset": -80,
+    "uri":"033_Floor3Room1-3.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 2-1",
+          "rotationY": -102.793,
+          "linkedPhotoId":"032"
+       },
+       {
+          "text":"Floor 3 Room 1-1a",
+          "rotationY": 63.843,
+          "linkedPhotoId":"031"
+       }
+    ]
+   },
+   "034":{
+    "rotationOffset": -80,
+    "uri":"034_Floor3Room2-1.jpg",
+    "tooltips":[
+       {
+          "text":"Floor 3 Room 2-2",
+          "rotationY": -102.793,
+          "linkedPhotoId":"035"
+       },
+       {
+          "text":"Floor 3 Room 1-3",
+          "rotationY": 63.843,
+          "linkedPhotoId":"033"
+       }
+    ]
    }
 }
