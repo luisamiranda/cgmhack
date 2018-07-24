@@ -18,4 +18,4 @@ Dependencies:
 - [React 360](https://facebook.github.io/react-360/)
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This POC is based on the React-VR "TourSample" project in the 'Examples' folder but ported to Reacdt-360:  C:\code\gh\robcamer\react-360\Examples\TourSample.
