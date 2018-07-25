@@ -45,11 +45,16 @@ function init(bundle, parent, options = {}) {
     r360.createRoot('TourSample'),
     new Location([0, 0, 0]),
   );
+
+  r360.renderToLocation(
+    r360.createRoot('ModalView'),
+    new Location([1, 1, 1]),
+  );
   // r360.renderToLocation(
   //   r360.createRoot('blf_vr',{img:"img1"}),
   //   new Location([0, 0, -4]),
   // );
-
+  //  r360.compositor.setBackground('./static_assets/036_Floor3Room2-3.jpg');
 
   // Load the initial environment
   // r360.compositor.setBackground(r360.getAssetURL('360_world.jpg'));

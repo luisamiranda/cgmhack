@@ -1,0 +1,27 @@
+newmtl Girl1_v01:material_0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd Girl1_v01_0.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 1000.00
+newmtl Girl2_v01:material_0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd Girl2_v01_0.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 1000.00
+newmtl Girl4_v01:material_0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd Girl4_v01_0.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 1000.00
