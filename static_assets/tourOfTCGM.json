@@ -43,8 +43,8 @@
             },
             {
                 "type": "textblock",
-                "title": "The chair",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
+                "title": "Come on in!",
+                "text": "Come on in to The Colored Girls Musem! Great Stories, History, and more!",
                 "attribution": "The colored Girls Museum",
                 "rotationY": 41,
                 "width": 1.5,
@@ -88,10 +88,10 @@
             },
             {
                 "type": "textblock",
-                "title": "The chair",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
+                "title": "Welcome to the Colored Girls Musem",
+                "text": "Beautiful Painted wood block sign for the Musem.",
                 "attribution": "The Colored Girls Museum",
-                "rotationY": 210,
+                "rotationY": 5,    
                 "width": 1.5,
                 "height": 1.5
              }
@@ -116,7 +116,7 @@
             "title": "The chair",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
             "attribution": "The colored Girls Museum",
-            "rotationY": 210,
+            "rotationY": 110,
             "width": 1.5,
             "height": 1.5
          }
@@ -146,7 +146,7 @@
                "rotationY": 170,
                "width": 2.560,
                "height": 1.240,
-               "source":"Three-Cocktails.webm",
+               "source":"https://www.dropbox.com/sh/go0023zuau8klaz/AABSJdYmpXoiPyvDhbGs_F0xa?dl=0&preview=TCGM_MS_vid2018-FINAL-h264.mp4",
                "muted":true
             },
             {
@@ -161,7 +161,7 @@
          ]
       },
       "006":{
-         "rotationOffset": -20,
+         "rotationOffset": 110,
          "uri":"006_Floor1Room1-1.jpg",
          "tooltips":[
             {
@@ -177,21 +177,22 @@
             {
                 "type": "image",
                 "rotationY": -105,
-                "width": 1.020,
-                "height": 1.388,
-                "source":"chalkboard-menu.jpg",
-                "attribution": "Photo by currystrumpet on flickr",
-                "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+                "width": 1.320,
+                "height": 1.000,
+                "source":"imgs/558C8743.JPG",
+                "text": "Girl on Wood painting",
+                "attribution": "Photo by ",
+                "attributionUri": ""
              },
              {
-                "type": "panelimage",
-                "rotationY": 290,
+                "type": "image",
+                "rotationY": -55,
                 "width": 1.280,
-                "height":0.850,
-                "source":"beer-cheers.jpg",
-                "text": "The Chester Biergarten is ideal for group dining and social gatherings. Enjoy casual picnic-table seating and views of the historic Meatpacking District.",
-                "attribution": "Photo by yutacar on upslash",
-                "attributionUri": "https://unsplash.com/photos/JKMnm3CIncw"
+                "height":0.950,
+                "source":"imgs/558C8733.jpg",
+                "text": "Woman Painting",
+                "attribution": "Photo by ",
+                "attributionUri": ""
              }
          ]
       },
@@ -201,7 +202,7 @@
          "tooltips":[
             {
                "text":"Floor 1 Room 1-3",
-               "rotationY": 29.348,
+               "rotationY": 229.348,
                "linkedPhotoId":"008"
             },
             {
@@ -216,13 +217,18 @@
          "uri":"008_Floor1Room1-3.jpg",
          "tooltips":[
             {
-               "text":"Floor 1 Room 2-1",
-               "rotationY": -102.793,
-               "linkedPhotoId":"009"
-            },
+                "text":"Floor Hallway 1",
+                "rotationY": 15,
+                "linkedPhotoId":"005"
+             },
             {
+                "text":"Floor 1 Room 1-1",
+                "rotationY": 68,
+                "linkedPhotoId":"006"
+             },
+              {
                "text":"Floor 1 Room 1-2",
-               "rotationY": 63.843,
+               "rotationY": 58,
                "linkedPhotoId":"007"
             }
          ]
