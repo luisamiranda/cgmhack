@@ -175,7 +175,7 @@ class NavButton extends React.Component {
         {this.state.hasFocus &&
           <Text
             style={{
-              backgroundColor: 'black',
+              backgroundColor: 'rgba(0,0,0,0.7)',
               color: 'white',
               fontSize: this.props.height * PPM * 0.7,
               height: this.props.height * PPM,

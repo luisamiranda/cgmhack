@@ -85,8 +85,8 @@ class InfoButton extends React.Component {
         onLongClickSound={this.props.onLongClickSound}>
         <Image
           style={{
-            height: 0.3 * PPM,
-            width: 0.3 * PPM,
+            height: 0.25 * PPM,
+            width: 0.25 * PPM,
             flexDirection: 'row',
           }}
           onEnter={() => {

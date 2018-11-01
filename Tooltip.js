@@ -123,7 +123,7 @@ class PanelImageTooltip extends React.Component {
             <View>
               <View
                 style={{
-                  backgroundColor: 'black',
+                  backgroundColor: 'rgba(0,0,0,0.7)',
                   // Lower this transparent view so it appears behind the title.
                   bottom: -fontSize.title - margin,
                   height: fontSize.title + margin,
@@ -148,7 +148,7 @@ class PanelImageTooltip extends React.Component {
 
         <View
           style={{
-            backgroundColor: 'black',
+            backgroundColor: 'rgba(0,0,0,0.7)',
             // Place attribution in bottom margin.
             paddingBottom: tooltip.attribution ? 0 : margin,
             paddingLeft: margin,
@@ -196,7 +196,7 @@ class TextBlockTooltip extends React.Component {
     return (
       <View
         style={{
-          backgroundColor: 'black',
+          backgroundColor: 'rgba(0,0,0,0.7)',
           padding: 0.1 * PPM,
         }}>
         <Text

@@ -79,10 +79,9 @@
                 },
                 {
                     "type": "textblock",
-                    "title": "",
                     "text": "Painted wood block sign for the museum",
                     "attribution": "The Colored Girls Museum",
-                    "rotationY": 5,    
+                    "rotationY": 12,    
                     "width": 1.5,
                     "height": 1.5
                 }
@@ -125,16 +124,8 @@
                 },
                 {
                     "text":"Stairs to second floor",
-                    "rotationY": 170,
+                    "rotationY": 142,
                     "linkedPhotoId":"013"
-                },
-                {
-                    "type": "video",
-                    "rotationY": 160,
-                    "width": 2.560,
-                    "height": 1.240,
-                    "source":"Three-Cocktails.webm",
-                    "muted":true
                 },
                 {
                     "type": "panelimage",
@@ -628,6 +619,14 @@
                 "text":"Floor 3 Room 1-3",
                 "rotationY": 63.843,
                 "linkedPhotoId":"033"
+            },
+            {
+                "type": "video",
+                "rotationY": 160,
+                "width": 2.560,
+                "height": 1.240,
+                "source":"Three-Cocktails.webm",
+                "muted":true
             }
             ]
         }
