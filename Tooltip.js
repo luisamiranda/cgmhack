@@ -108,59 +108,46 @@ class PanelImageTooltip extends React.Component {
     return (
       <View
         style={{
-          borderColor: '#777879',
-          borderWidth: 0.01 * PPM,
+          flexDirection: 'row',
+          justifyContent: 'space-between',
         }}>
         <Image
           style={{
             height: tooltip.height * PPM,
             width: tooltip.width * PPM,
-            justifyContent: 'flex-end',
+            justifyContent: 'flex-start',
           }}
           source={asset(tooltip.source)}>
-
-          {tooltip.title &&
-            <View>
-              <View
-                style={{
-                  backgroundColor: 'rgba(0,0,0,0.7)',
-                  // Lower this transparent view so it appears behind the title.
-                  bottom: -fontSize.title - margin,
-                  height: fontSize.title + margin,
-                  opacity: titleOpacity,
-                  position: 'relative',
-                }}
-              />
-              <Text
-                style={{
-                  color: 'white',
-                  fontSize: fontSize.title,
-                  flex: 1,
-                  height: fontSize.title + margin,
-                  marginLeft: margin,
-                  marginRight: margin,
-                  textAlignVertical: 'bottom',
-                }}>
-                {tooltip.title}
-              </Text>
-            </View>}
         </Image>
-
+        
         <View
           style={{
             backgroundColor: 'rgba(0,0,0,0.7)',
-            // Place attribution in bottom margin.
-            paddingBottom: tooltip.attribution ? 0 : margin,
-            paddingLeft: margin,
-            paddingRight: margin,
-            paddingTop: 0,
-            width: tooltip.width * PPM,
+            width: tooltip.width * PPM + 0.1 * PPM,
+            padding: 0.1 * PPM,
           }}>
           <Text
             style={{
               color: 'white',
+              fontSize: fontSize.title,
+              width: tooltip.width * PPM,
+            }}>
+            {tooltip.title}
+          </Text>
+          {tooltip.title &&
+            <View
+              style={{
+                // If we have a title, make thin line to separate title and text.
+                backgroundColor: '#777879',
+                height: 0.01 * PPM,
+                width: tooltip.width * PPM,
+              }}
+            />}
+          <Text
+            style={{
+              color: 'white',
               fontSize: fontSize.text,
-              textAlignVertical: 'center',
+              width: tooltip.width * PPM,
             }}>
             {tooltip.text}
           </Text>
@@ -168,7 +155,7 @@ class PanelImageTooltip extends React.Component {
             <Text
               style={{
                 fontSize: fontSize.attrib,
-                right: -margin + 0.02 * PPM,
+                right: 0.02 * PPM,
                 textAlign: 'right',
               }}>
               {tooltip.attribution}

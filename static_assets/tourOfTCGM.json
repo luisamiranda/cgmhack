@@ -126,15 +126,6 @@
                     "text":"Stairs to second floor",
                     "rotationY": 142,
                     "linkedPhotoId":"013"
-                },
-                {
-                    "type": "panelimage",
-                    "rotationY": 200,
-                    "width": 1.020,
-                    "height": 1.388,
-                    "source":"chalkboard-menu.jpg",
-                    "attribution": "Photo by currystrumpet on flickr",
-                    "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
                 }
             ]
         },
@@ -627,6 +618,17 @@
                 "height": 1.240,
                 "source":"Three-Cocktails.webm",
                 "muted":true
+            },
+            {
+                "type": "panelimage",
+                "rotationY": 150,
+                "width": 1.020,
+                "height": 1.388,
+                "source":"chalkboard-menu.jpg",
+                "title": "TITLE",
+                "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
+                "attribution": "Photo by currystrumpet on flickr",
+                "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
             }
             ]
         }
