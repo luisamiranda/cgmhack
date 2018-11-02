@@ -103,7 +103,7 @@
             }
             ]
         },
-        "005":{
+        "005":{ 
             "rotationOffset": 65,
             "uri":"005_FloorHallway1.jpg",
             "tooltips":[
@@ -203,32 +203,32 @@
             ]
         },
         "009":{
-        "rotationOffset": 85,
-        "uri":"009_Floor1Room2-1.jpg",
-        "tooltips":[
-           {
-              "text":"Room 2 - shelves",
-              "rotationY": 170,
-              "linkedPhotoId":"010"
-           },
-           {
-               "text": "Kitchen",
-               "rotationY": -175,
-               "linkedPhotoId": "011"
-           },
-           {
-              "text":"First floor hallway",
-              "rotationY": 15,
-              "linkedPhotoId":"005"
-           }
-        ]
+            "rotationOffset": 70,
+            "uri":"009_Floor1Room2-1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 2 - shelves",
+                "rotationY": 170,
+                "linkedPhotoId":"010"
+            },
+            {
+                "text": "Kitchen",
+                "rotationY": -175,
+                "linkedPhotoId": "011"
+            },
+            {
+                "text":"First floor hallway",
+                "rotationY": 15,
+                "linkedPhotoId":"005"
+            }
+            ]
         },
         "010":{
-            "rotationOffset": -90,
+            "rotationOffset": 90,
             "uri":"010_Floor1Room2-2.jpg",
             "tooltips":[
                 {
-                    "text":"Floor 1 Room 2-1",
+                    "text":"Room 2",
                     "rotationY": -160,
                     "linkedPhotoId":"009"
                 }
@@ -240,29 +240,29 @@
             "tooltips":[
             {
                 "text":"Kitchen 2",
-                "rotationY": 95,
+                "rotationY": 100,
                 "linkedPhotoId":"012"
             },
             {
                 "text":"Room 2",
                 "rotationY": 30,
-                "linkedPhotoId":"010"
+                "linkedPhotoId":"009"
             }
             ]
         },
         "012":{
-            "rotationOffset": -80,
+            "rotationOffset": 20,
             "uri":"012_Floor1Room3-2.jpg",
             "tooltips":[
             {
-                "text":"Floor 1 Staircase",
-                "rotationY": -102.793,
-                "linkedPhotoId":"013"
+                "text":"Kitchen 1",
+                "rotationY": -15,
+                "linkedPhotoId":"011"
             },
             {
-                "text":"Floor 1 Room 3-1",
-                "rotationY": 63.843,
-                "linkedPhotoId":"011"
+                "text": "Room 2",
+                "rotationY": 11,
+                "linkedPhotoId": "009"
             }
             ]
         },
