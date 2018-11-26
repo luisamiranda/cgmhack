@@ -298,7 +298,7 @@
             "tooltips":[]
         },
         "016":{
-            "rotationOffset": -20,
+            "rotationOffset": -3,
             "uri":"016_Floor2Hallway3.jpg",
             "tooltips":[
                 {
@@ -313,7 +313,7 @@
                 },
                 {
                     "text":"Stairs to third floor",
-                    "rotationY": 25,
+                    "rotationY": 20,
                     "linkedPhotoId":"028"
                 }
             ]
@@ -432,11 +432,11 @@
             "tooltips":[]
         },
         "028":{
-            "rotationOffset": 0,
+            "rotationOffset": 110,
             "uri":"028_Floor2Staircase.jpg",
             "tooltips":[
             {
-                "text":"Floor 3 Hallway 1",
+                "text":"Third floor hallway",
                 "rotationY": -120,
                 "linkedPhotoId":"029"
             },
@@ -448,17 +448,22 @@
             ]
         },
         "029":{
-            "rotationOffset": -80,
+            "rotationOffset": 0,
             "uri":"029_Floor3Hallway1.jpg",
             "tooltips":[
             {
-                "text":"Floor 3 Room 1-1",
-                "rotationY": -102.793,
+                "text":"Room 6",
+                "rotationY": 30,
+                "linkedPhotoId":"034"
+            },
+            {
+                "text":"Room 7",
+                "rotationY": -110,
                 "linkedPhotoId":"030"
             },
             {
-                "text":"Floor2Staircase",
-                "rotationY": 63.843,
+                "text":"Stairs to second floor",
+                "rotationY": 140,
                 "linkedPhotoId":"028"
             }
             ]
@@ -528,38 +533,70 @@
             ]
         },
         "034":{
-            "rotationOffset": -80,
+            "rotationOffset": -55,
             "uri":"034_Floor3Room2-1.jpg",
             "tooltips":[
-            {
-                "text":"Floor 3 Room 2-2",
-                "rotationY": -102.793,
-                "linkedPhotoId":"035"
-            },
-            {
-                "text":"Floor 3 Room 1-3",
-                "rotationY": 63.843,
-                "linkedPhotoId":"033"
-            },
-            {
-                "type": "video",
-                "rotationY": 160,
-                "width": 2.560,
-                "height": 1.240,
-                "source":"Three-Cocktails.webm",
-                "muted":true
-            },
-            {
-                "type": "panelimage",
-                "rotationY": 150,
-                "width": 1.020,
-                "height": 1.388,
-                "source":"chalkboard-menu.jpg",
-                "title": "TITLE",
-                "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
-                "attribution": "Photo by currystrumpet on flickr",
-                "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
-            }
+                {
+                    "text":"Third floor hallway",
+                    "rotationY": -110,
+                    "linkedPhotoId":"029"
+                },
+                {
+                    "text":"Room 6 - tea table",
+                    "rotationY": 105,
+                    "linkedPhotoId": "036"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY": 170,
+                    "linkedPhotoId":"035"
+                }
+            ]
+        },
+        "035":{
+            "rotationOffset": -80,
+            "uri":"035_Floor3Room2-2.jpg",
+            "tooltips":[
+                {
+                    "type": "video",
+                    "rotationY": 160,
+                    "width": 2.560,
+                    "height": 1.240,
+                    "source":"Three-Cocktails.webm",
+                    "muted":true
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": 150,
+                    "width": 1.020,
+                    "height": 1.388,
+                    "source":"chalkboard-menu.jpg",
+                    "title": "TITLE",
+                    "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
+                    "attribution": "Photo by currystrumpet on flickr",
+                    "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+                }
+            ]
+        },
+        "036": {
+            "rotationOffset": 5,
+            "uri":"036_Floor3Room2-3.jpg",
+            "tooltips":[
+                {
+                    "text": "Room 6 - front",
+                    "rotationY":150,
+                    "linkedPhotoId":"034"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY":-170,
+                    "linkedPhotoId":"035"
+                },
+                {
+                    "text":"Third floor hallway",
+                    "rotationY":-160,
+                    "linkedPhotoId":"029"
+                }
             ]
         }
     }
