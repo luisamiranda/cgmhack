@@ -1,22 +1,12 @@
-/**
- * The examples provided by Oculus are for non-commercial testing and
- * evaluation purposes only.
- *
- * Oculus reserves all rights not expressly granted.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL
- * OCULUS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
- * AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- *
- * Example ReactVR app that allows a simple tour using linked 360 photos.
- */
 'use strict';
 
 import React from 'react';
-import { AppRegistry, asset, Image, Pano, Text, Sound, View } from 'react-360';
+import { 
+  AppRegistry, 
+  asset, 
+  Pano, 
+  Sound, 
+  View } from 'react-360';
 
 import InfoButton from './InfoButton';
 import NavButton from './NavButton';
@@ -34,13 +24,7 @@ const degreesToPixels = degrees => -(degrees / 360) * MAX_TEXTURE_WIDTH;
 // PPM = 1/(2*PI*Radius) * density. Radius of cylinder is 3 meters.
 const PPM = 1 / (2 * Math.PI * 3) * MAX_TEXTURE_WIDTH;
 
-/**
- * ReactVR component that allows a simple tour using linked 360 photos.
- * Tour includes nav buttons, activated by gaze-and-fill or direct selection,
- * that move between tour locations and info buttons that display tooltips with
- * text and/or images. Tooltip data and photo URLs are read from a JSON file.
- */
-class TourSample extends React.Component {
+class TCGMTour extends React.Component {
   static defaultProps = {
     tourSource: 'tourOfTCGM.json',
   };
@@ -143,7 +127,7 @@ class TourSample extends React.Component {
                           key={index}
                           onEnterSound={asset(soundEffects.navButton.onEnter.uri)}
                           pixelsPerMeter={PPM}
-                          source={asset('info_icon.png')}
+                          source={asset('info-button-1.png')}
                           tooltip={tooltip}
                           translateX={degreesToPixels(tooltip.rotationY)}
                         />
@@ -188,4 +172,4 @@ class TourSample extends React.Component {
 }
 
 // Name used to create module, via reactNativeContext.createRootView('TourSample')
-AppRegistry.registerComponent('TourSample', () => TourSample);
+AppRegistry.registerComponent('TCGMTour', () => TCGMTour);

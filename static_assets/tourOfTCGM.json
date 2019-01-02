@@ -1,5 +1,5 @@
 {
-   "nav_icon": "chester_icon.png",
+   "nav_icon": "nav-icon-1.png",
    "firstPhotoId":"001",
    "firstPhotoRotation": 155,
    "soundEffects": {
@@ -27,616 +27,577 @@
       }
    },
    "photos":{
-      "002":{
-         "rotationOffset": 143,
-         "uri":"002_Outside2.jpg",
-         "tooltips":[
+        "001":{
+            "rotationOffset": 155,
+            "uri":"001_Outside1.jpg",
+            "tooltips":[
             {
-               "text":"Outside 1",
-               "rotationY": -134,
-               "linkedPhotoId":"001"
-            },
-            {
-               "text":"Outside 3",
-               "rotationY": 75,
-               "linkedPhotoId":"003"
+                "text":"Garden",
+                "rotationY": 62.525,
+                "linkedPhotoId":"002"
             },
             {
                 "type": "textblock",
-                "title": "The chair",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
-                "attribution": "The colored Girls Museum",
-                "rotationY": 41,
-                "width": 1.5,
-                "height": 1.5
-             }
-         ]
-      },
-      "001":{
-         "rotationOffset": 155,
-         "uri":"001_Outside1.jpg",
-         "tooltips":[
-            {
-               "text":"Outside 2",
-               "rotationY": 62.525,
-               "linkedPhotoId":"002"
-            },
-            {
-               "type": "textblock",
-               "title": "The Colored Girls Museum",
-               "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
-               "attribution": "The Colored Girls Museum",
-               "rotationY": 35,
-               "width": 1.5,
-               "height": 1.5
-            }
-         ]
-      },
-      "003":{
-         "rotationOffset": 155,
-         "uri":"003_Outside3.jpg",
-         "tooltips":[
-            {
-               "text":"Outside 4",
-               "rotationY": 65,
-               "linkedPhotoId":"004"
-            },
-            {
-               "text":"Outside 2",
-               "rotationY": -150,
-               "linkedPhotoId":"002"
-            },
-            {
-                "type": "textblock",
-                "title": "The chair",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
+                "title": "The Colored Girls Museum",
+                "text": "The Colored Girls Museum is a memoir museum, which honors the stories, experiences, and history of all colored girls.",
                 "attribution": "The Colored Girls Museum",
-                "rotationY": 210,
+                "rotationY": 35,
                 "width": 1.5,
                 "height": 1.5
-             }
-         ]
-      },
-      "004":{
-        "rotationOffset": 195,
-        "uri":"004_Outside4.jpg",
-        "tooltips":[
-           {
-              "text":"Floor Hallway 1",
-              "rotationY": 14,
-              "linkedPhotoId":"005"
-           },
-           {
-              "text":"Outside 3",
-              "rotationY": -137,
-              "linkedPhotoId":"003"
-           },
-           {
-            "type": "textblock",
-            "title": "The chair",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales blandit purus, in scelerisque metus.",
-            "attribution": "The colored Girls Museum",
-            "rotationY": 210,
-            "width": 1.5,
-            "height": 1.5
-         }
-        ]
-     },
-      "005":{
-         "rotationOffset": 65,
-         "uri":"005_FloorHallway1.jpg",
-         "tooltips":[
+            }
+            ]
+        },
+        "002":{
+            "rotationOffset": 143,
+            "uri":"002_Outside2.jpg",
+            "tooltips":[
+                {
+                    "text":"Street",
+                    "rotationY": -134,
+                    "linkedPhotoId":"001"
+                },
+                {
+                    "text":"Front porch",
+                    "rotationY": 75,
+                    "linkedPhotoId":"003"
+                }
+            ]
+        },
+        "003":{
+            "rotationOffset": 155,
+            "uri":"003_Outside3.jpg",
+            "tooltips":[
+                {
+                    "text":"Side porch",
+                    "rotationY": 65,
+                    "linkedPhotoId":"004"
+                },
+                {
+                    "text":"Garden",
+                    "rotationY": -150,
+                    "linkedPhotoId":"002"
+                },
+                {
+                    "type": "textblock",
+                    "text": "Painted wood block sign for the museum",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 12,    
+                    "width": 1.5,
+                    "height": 1.5
+                }
+            ]
+        },
+        "004":{
+            "rotationOffset": 195,
+            "uri":"004_Outside4.jpg",
+            "tooltips":[
             {
-               "text":"Floor 1 Room 1-1",
-               "rotationY": 68,
-               "linkedPhotoId":"006"
+                "text":"First floor hallway",
+                "rotationY": 14,
+                "linkedPhotoId":"005"
             },
             {
-                "text":"Outside 4",
-                "rotationY": 2,
-                "linkedPhotoId":"004"
+                "text":"Front porch",
+                "rotationY": -137,
+                "linkedPhotoId":"003"
+            }
+            ]
+        },
+        "005":{ 
+            "rotationOffset": 65,
+            "uri":"005_FloorHallway1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1",
+                    "rotationY": 68,
+                    "linkedPhotoId":"007"
+                },
+                {
+                    "text":"Side porch",
+                    "rotationY": 2,
+                    "linkedPhotoId":"004"
+                },
+                {
+                    "text":"Room 2",
+                    "rotationY": -175,
+                    "linkedPhotoId":"009"
+                },
+                {
+                    "text":"Stairs to second floor",
+                    "rotationY": 142,
+                    "linkedPhotoId":"013"
+                }
+            ]
+        },
+        "006":{
+            "rotationOffset": -15,
+            "uri":"006_Floor1Room1-1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1",
+                    "rotationY": -150,
+                    "linkedPhotoId":"007"
+                },
+                {
+                    "text":"First floor hallway",
+                    "rotationY": 136,
+                    "linkedPhotoId":"005"
+                },
+                {
+                    "type": "image",
+                    "rotationY": -105,
+                    "width": 1.320,
+                    "height": 1.000,
+                    "source":"imgs/558C8743.JPG",
+                    "text": "Girl on Wood painting",
+                    "attribution": "Photo by ",
+                    "attributionUri": ""
+                },
+                {
+                    "type": "image",
+                    "rotationY": -55,
+                    "width": 1.280,
+                    "height":0.950,
+                    "source":"imgs/558C8733.jpg",
+                    "text": "Woman Painting",
+                    "attribution": "Photo by ",
+                    "attributionUri": ""
+                }
+            ]
+        },
+        "007":{
+            "rotationOffset": -100,
+            "uri":"007_Floor1Room1-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1 - fireplace",
+                    "rotationY": 90,
+                    "linkedPhotoId":"006"
+                },
+                {
+                    "text":"First floor hallway",
+                    "rotationY": 125,
+                    "linkedPhotoId":"005"
+                }
+            ]
+        },
+        "008":{
+            "rotationOffset": -80,
+            "uri":"008_Floor1Room1-3.jpg",
+            "tooltips":[]
+        },
+        "009":{
+            "rotationOffset": 70,
+            "uri":"009_Floor1Room2-1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 2 - shelves",
+                "rotationY": 170,
+                "linkedPhotoId":"010"
             },
             {
-                "text":"Floor 1 Room 2-1",
-                "rotationY": -171,
+                "text": "Kitchen",
+                "rotationY": -175,
+                "linkedPhotoId": "011"
+            },
+            {
+                "text":"First floor hallway",
+                "rotationY": 15,
+                "linkedPhotoId":"005"
+            }
+            ]
+        },
+        "010":{
+            "rotationOffset": 90,
+            "uri":"010_Floor1Room2-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 2",
+                    "rotationY": -160,
+                    "linkedPhotoId":"009"
+                }
+            ]
+        },
+        "011":{
+            "rotationOffset": 40,
+            "uri":"011_Floor1Room3-1.jpg",
+            "tooltips":[
+            {
+                "text":"Kitchen 2",
+                "rotationY": 100,
+                "linkedPhotoId":"012"
+            },
+            {
+                "text":"Room 2",
+                "rotationY": 30,
                 "linkedPhotoId":"009"
-            },
-            {
-               "type": "video",
-               "rotationY": 170,
-               "width": 2.560,
-               "height": 1.240,
-               "source":"Three-Cocktails.webm",
-               "muted":true
-            },
-            {
-               "type": "image",
-               "rotationY": 200,
-               "width": 1.020,
-               "height": 1.388,
-               "source":"chalkboard-menu.jpg",
-               "attribution": "Photo by currystrumpet on flickr",
-               "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
             }
-         ]
-      },
-      "006":{
-         "rotationOffset": -20,
-         "uri":"006_Floor1Room1-1.jpg",
-         "tooltips":[
+            ]
+        },
+        "012":{
+            "rotationOffset": 20,
+            "uri":"012_Floor1Room3-2.jpg",
+            "tooltips":[
             {
-               "text":"Floor 1 Room 1-2",
-               "rotationY": -150,
-               "linkedPhotoId":"007"
+                "text":"Kitchen 1",
+                "rotationY": -15,
+                "linkedPhotoId":"011"
             },
             {
-                "text":"Floor Hallway 1",
-                "rotationY": 136,
-                "linkedPhotoId":"005"
+                "text": "Room 2",
+                "rotationY": 11,
+                "linkedPhotoId": "009"
+            }
+            ]
+        },
+        "013":{
+            "rotationOffset": 170,
+            "uri":"013_Floor1Staircase.jpg",
+            "tooltips":[
+            {
+                "text":"Second floor landing",
+                "rotationY": 40,
+                "linkedPhotoId":"014"
             },
             {
-                "type": "image",
-                "rotationY": -105,
-                "width": 1.020,
-                "height": 1.388,
-                "source":"chalkboard-menu.jpg",
-                "attribution": "Photo by currystrumpet on flickr",
-                "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
-             },
-             {
-                "type": "panelimage",
-                "rotationY": 290,
-                "width": 1.280,
-                "height":0.850,
-                "source":"beer-cheers.jpg",
-                "text": "The Chester Biergarten is ideal for group dining and social gatherings. Enjoy casual picnic-table seating and views of the historic Meatpacking District.",
-                "attribution": "Photo by yutacar on upslash",
-                "attributionUri": "https://unsplash.com/photos/JKMnm3CIncw"
-             }
-         ]
-      },
-      "007":{
-         "rotationOffset": 140,
-         "uri":"007_Floor1Room1-2.jpg",
-         "tooltips":[
-            {
-               "text":"Floor 1 Room 1-3",
-               "rotationY": 29.348,
-               "linkedPhotoId":"008"
-            },
-            {
-                "text":"Floor Hallway 1",
-                "rotationY": 136,
+                "text":"First floor hallway",
+                "rotationY": 160,
                 "linkedPhotoId":"005"
             }
-         ]
-      },
-      "008":{
-         "rotationOffset": -80,
-         "uri":"008_Floor1Room1-3.jpg",
-         "tooltips":[
+            ]
+        },
+        "014":{
+            "rotationOffset": 180,
+            "uri":"014_Floor2Hallway1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 3",
+                    "rotationY": 0,
+                    "linkedPhotoId":"019"
+                },
+                {
+                    "text":"Room 4",
+                    "rotationY": 125,
+                    "linkedPhotoId":"020"
+                },
+                {
+                    "text":"Second floor hallway",
+                    "rotationY": 160,
+                    "linkedPhotoId":"016"
+                },
+                {
+                    "text":"Stairs to first floor",
+                    "rotationY": -175,
+                    "linkedPhotoId":"013"
+                }
+            ]
+        },
+        "015":{
+            "rotationOffset": -80,
+            "uri":"015_Floor2Hallway2.jpg",
+            "tooltips":[]
+        },
+        "016":{
+            "rotationOffset": -3,
+            "uri":"016_Floor2Hallway3.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 5",
+                    "rotationY": -75,
+                    "linkedPhotoId":"023"
+                },
+                {
+                    "text":"Second floor landing",
+                    "rotationY": 90,
+                    "linkedPhotoId":"014"
+                },
+                {
+                    "text":"Stairs to third floor",
+                    "rotationY": 20,
+                    "linkedPhotoId":"028"
+                }
+            ]
+        },
+        "017":{
+            "rotationOffset": -80,
+            "uri":"017_Floor2Room1-1.jpg",
+            "tooltips":[]
+        },
+        "018":{
+            "rotationOffset": -80,
+            "uri":"018_Floor2Room1-2.jpg",
+            "tooltips":[]
+        },
+        "019":{
+            "rotationOffset": -160,
+            "uri":"019_Floor2Room1-3.jpg",
+            "tooltips":[
+                {
+                    "text":"Second floor landing",
+                    "rotationY": -140,
+                    "linkedPhotoId":"014"
+                }
+            ]
+        },
+        "020":{
+            "rotationOffset": 145,
+            "uri":"020_Floor2Room2-1.jpg",
+            "tooltips":[
+                {
+                    "text": "Room 4 - shelves",
+                    "rotationY": 40,
+                    "linkedPhotoId":"021"
+                },
+                {
+                    "text": "Second floor landing",
+                    "rotationY": -155,
+                    "linkedPhotoId": "014"
+                }
+            ]
+        },
+        "021":{
+            "rotationOffset": 90,
+            "uri":"021_Floor2Room2-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Second floor landing",
+                    "rotationY": -100,
+                    "linkedPhotoId":"014"
+                },
+                {
+                    "text":"Room 4",
+                    "rotationY": -140,
+                    "linkedPhotoId":"020"
+                },
+                {
+                    "type": "textblock",
+                    "text": "This purse (handbag) belonged to my mother Ida Kent Stevens. She was born on a farm in Screven County, GA on December 26, 1908.",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 60,    
+                    "width": 1.5,
+                    "height": 1.5
+                }
+            ]
+        },
+        "022":{
+            "rotationOffset": -80,
+            "uri":"022_Floor2Room2-3.jpg",
+            "tooltips":[]
+        },
+        "023":{
+            "rotationOffset": -100,
+            "uri":"023_Floor2Room3-1.jpg",
+            "tooltips":[
             {
-               "text":"Floor 1 Room 2-1",
-               "rotationY": -102.793,
-               "linkedPhotoId":"009"
+                "text":"Room 5 - bed",
+                "rotationY": 20,
+                "linkedPhotoId":"024"
             },
             {
-               "text":"Floor 1 Room 1-2",
-               "rotationY": 63.843,
-               "linkedPhotoId":"007"
+                "text":"Second floor hallway",
+                "rotationY": -175,
+                "linkedPhotoId":"016"
             }
-         ]
-      },
-      "009":{
-        "rotationOffset": -170,
-        "uri":"009_Floor1Room2-1.jpg",
-        "tooltips":[
-           {
-              "text":"Floor 1 Room 2-2",
-              "rotationY": 120,
-              "linkedPhotoId":"010"
-           },
-           {
-              "text":"Floor Hallway 1",
-              "rotationY": 15,
-              "linkedPhotoId":"005"
-           }
-        ]
-    },
-   "010":{
-    "rotationOffset": -80,
-    "uri":"010_Floor1Room2-2.jpg",
-    "tooltips":[
-        {
-            "text":"Floor 1 Room 2-1",
-            "rotationY": -160,
-            "linkedPhotoId":"009"
-         }
-    ]
-   },
-   "011":{
-    "rotationOffset": -80,
-    "uri":"011_Floor1Room3-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 1 Room 3-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"012"
-       },
-       {
-          "text":"Floor 1 Room 2-2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"010"
-       }
-    ]
-   },
-   "012":{
-    "rotationOffset": -80,
-    "uri":"012_Floor1Room3-2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 1 Staircase",
-          "rotationY": -102.793,
-          "linkedPhotoId":"013"
-       },
-       {
-          "text":"Floor 1 Room 3-1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"011"
-       }
-    ]
-   },
-   "013":{
-    "rotationOffset": -80,
-    "uri":"013_Floor1Staircase.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Hallway 1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"014"
-       },
-       {
-          "text":"Floor 1 Room 3-2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"012"
-       }
-    ]
-   },
-   "014":{
-    "rotationOffset": -80,
-    "uri":"014_Floor2Hallway1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Hallway 2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"015"
-       },
-       {
-          "text":"Floor 1 Staircase",
-          "rotationY": 63.843,
-          "linkedPhotoId":"013"
-       }
-    ]
-   },
-   "015":{
-    "rotationOffset": -80,
-    "uri":"015_Floor2Hallway2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Hallway 3",
-          "rotationY": -102.793,
-          "linkedPhotoId":"016"
-       },
-       {
-          "text":"Floor 2 Hallway 1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"014"
-       }
-    ]
-   },
-   "016":{
-    "rotationOffset": -80,
-    "uri":"016_Floor2Hallway3.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 1-1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"017"
-       },
-       {
-          "text":"Floor 2 Hallway 2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"015"
-       }
-    ]
-   },
-   "017":{
-    "rotationOffset": -80,
-    "uri":"017_Floor2Room1-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 1-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"018"
-       },
-       {
-          "text":"Floor 2 Hallway 3",
-          "rotationY": 63.843,
-          "linkedPhotoId":"016"
-       }
-    ]
-   },
-   "018":{
-    "rotationOffset": -80,
-    "uri":"018_Floor2Room1-2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 1-3",
-          "rotationY": -102.793,
-          "linkedPhotoId":"019"
-       },
-       {
-          "text":"Floor 2 Room 1-1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"017"
-       }
-    ]
-   },
-   "019":{
-    "rotationOffset": -80,
-    "uri":"019_Floor2Room1-3.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 2-1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"020"
-       },
-       {
-          "text":"Floor 2 Room 1-2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"018"
-       }
-    ]
-   },
-   "020":{
-    "rotationOffset": -80,
-    "uri":"020_Floor2Room2-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 2-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"021"
-       },
-       {
-          "text":"Floor 2 Room 1-3",
-          "rotationY": 63.843,
-          "linkedPhotoId":"019"
-       }
-    ]
-   },
-   "021":{
-    "rotationOffset": -80,
-    "uri":"021_Floor2Room2-2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 2-3",
-          "rotationY": -102.793,
-          "linkedPhotoId":"022"
-       },
-       {
-          "text":"Floor 2 Room 2-1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"020"
-       }
-    ]
-   },
-   "022":{
-    "rotationOffset": -80,
-    "uri":"022_Floor2Room2-3.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 3-1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"023"
-       },
-       {
-          "text":"Floor 2 Room 2-2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"021"
-       }
-    ]
-   },
-   "023":{
-    "rotationOffset": -80,
-    "uri":"023_Floor2Room3-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 3-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"024"
-       },
-       {
-          "text":"Floor 2 Room 2-3",
-          "rotationY": 63.843,
-          "linkedPhotoId":"022"
-       }
-    ]
-   },
-   "024":{
-    "rotationOffset": -80,
-    "uri":"024_Floor2Room3-2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 3-3",
-          "rotationY": -102.793,
-          "linkedPhotoId":"025"
-       },
-       {
-          "text":"Floor 2 Room 3-1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"023"
-       }
-    ]
-   },
-   "025":{
-    "rotationOffset": -80,
-    "uri":"025_Floor2Room3-3.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 3-3a",
-          "rotationY": -102.793,
-          "linkedPhotoId":"026"
-       },
-       {
-          "text":"Floor 2 Room 3-2",
-          "rotationY": 63.843,
-          "linkedPhotoId":"024"
-       }
-    ]
-   },
-   "026":{
-    "rotationOffset": -80,
-    "uri":"026_Floor2Room3-3a.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Room 3-4",
-          "rotationY": -102.793,
-          "linkedPhotoId":"027"
-       },
-       {
-          "text":"Floor 2 Room 3-3",
-          "rotationY": 63.843,
-          "linkedPhotoId":"025"
-       }
-    ]
-   },
-   "027":{
-    "rotationOffset": -80,
-    "uri":"027_Floor2Room3-4.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 2 Staircase",
-          "rotationY": -102.793,
-          "linkedPhotoId":"028"
-       },
-       {
-          "text":"Floor 2 Room 3-3a",
-          "rotationY": 63.843,
-          "linkedPhotoId":"026"
-       }
-    ]
-   },
-   "028":{
-    "rotationOffset": -80,
-    "uri":"028_Floor2Staircase.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Hallway 1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"029"
-       },
-       {
-          "text":"Floor 2 Room 3-4",
-          "rotationY": 63.843,
-          "linkedPhotoId":"027"
-       }
-    ]
-   },
-   "029":{
-    "rotationOffset": -80,
-    "uri":"029_Floor3Hallway1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 1-1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"030"
-       },
-       {
-          "text":"Floor2Staircase",
-          "rotationY": 63.843,
-          "linkedPhotoId":"028"
-       }
-    ]
-   },
-   "030":{
-    "rotationOffset": -80,
-    "uri":"030_Floor3Room1-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 1-1a",
-          "rotationY": -102.793,
-          "linkedPhotoId":"031"
-       },
-       {
-          "text":"Floor 3 Hallway 1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"029"
-       }
-    ]
-   },
-   "031":{
-    "rotationOffset": -80,
-    "uri":"031_Floor3Room1-1a.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 1-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"032"
-       },
-       {
-          "text":"Floor 3 Room 1-1",
-          "rotationY": 63.843,
-          "linkedPhotoId":"030"
-       }
-    ]
-   },
-   "032":{
-    "rotationOffset": -80,
-    "uri":"032_Floor3Room1-2.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 1-3",
-          "rotationY": -102.793,
-          "linkedPhotoId":"032"
-       },
-       {
-          "text":"Floor 3 Room 1-1a",
-          "rotationY": 63.843,
-          "linkedPhotoId":"031"
-       }
-    ]
-   },
-   "033":{
-    "rotationOffset": -80,
-    "uri":"033_Floor3Room1-3.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 2-1",
-          "rotationY": -102.793,
-          "linkedPhotoId":"032"
-       },
-       {
-          "text":"Floor 3 Room 1-1a",
-          "rotationY": 63.843,
-          "linkedPhotoId":"031"
-       }
-    ]
-   },
-   "034":{
-    "rotationOffset": -80,
-    "uri":"034_Floor3Room2-1.jpg",
-    "tooltips":[
-       {
-          "text":"Floor 3 Room 2-2",
-          "rotationY": -102.793,
-          "linkedPhotoId":"035"
-       },
-       {
-          "text":"Floor 3 Room 1-3",
-          "rotationY": 63.843,
-          "linkedPhotoId":"033"
-       }
-    ]
-   }
-}
+            ]
+        },
+        "024":{
+            "rotationOffset": -60,
+            "uri":"024_Floor2Room3-2.jpg",
+            "tooltips":[
+            {
+                "text":"Second floor hallway",
+                "rotationY": -170,
+                "linkedPhotoId":"016"
+            },
+            {
+                "text":"Room 5",
+                "rotationY": 170,
+                "linkedPhotoId":"023"
+            }
+            ]
+        },
+        "025":{
+            "rotationOffset": -80,
+            "uri":"025_Floor2Room3-3.jpg",
+            "tooltips":[]
+        },
+        "026":{
+            "rotationOffset": -80,
+            "uri":"026_Floor2Room3-3a.jpg",
+            "tooltips":[]
+        },
+        "027":{
+            "rotationOffset": -80,
+            "uri":"027_Floor2Room3-4.jpg",
+            "tooltips":[]
+        },
+        "028":{
+            "rotationOffset": 110,
+            "uri":"028_Floor2Staircase.jpg",
+            "tooltips":[
+            {
+                "text":"Third floor hallway",
+                "rotationY": -120,
+                "linkedPhotoId":"029"
+            },
+            {
+                "text":"Second floor hallway",
+                "rotationY": 0,
+                "linkedPhotoId":"016S"
+            }
+            ]
+        },
+        "029":{
+            "rotationOffset": 0,
+            "uri":"029_Floor3Hallway1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 6",
+                "rotationY": 30,
+                "linkedPhotoId":"034"
+            },
+            {
+                "text":"Room 7",
+                "rotationY": -110,
+                "linkedPhotoId":"030"
+            },
+            {
+                "text":"Stairs to second floor",
+                "rotationY": 140,
+                "linkedPhotoId":"028"
+            }
+            ]
+        },
+        "030":{
+            "rotationOffset": -80,
+            "uri":"030_Floor3Room1-1.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": -102.793,
+                "linkedPhotoId":"031"
+            },
+            {
+                "text":"Floor 3 Hallway 1",
+                "rotationY": 63.843,
+                "linkedPhotoId":"029"
+            }
+            ]
+        },
+        "031":{
+            "rotationOffset": -80,
+            "uri":"031_Floor3Room1-1a.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-2",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1",
+                "rotationY": 63.843,
+                "linkedPhotoId":"030"
+            }
+            ]
+        },
+        "032":{
+            "rotationOffset": -80,
+            "uri":"032_Floor3Room1-2.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-3",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": 63.843,
+                "linkedPhotoId":"031"
+            }
+            ]
+        },
+        "033":{
+            "rotationOffset": -80,
+            "uri":"033_Floor3Room1-3.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 2-1",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": 63.843,
+                "linkedPhotoId":"031"
+            }
+            ]
+        },
+        "034":{
+            "rotationOffset": -55,
+            "uri":"034_Floor3Room2-1.jpg",
+            "tooltips":[
+                {
+                    "text":"Third floor hallway",
+                    "rotationY": -110,
+                    "linkedPhotoId":"029"
+                },
+                {
+                    "text":"Room 6 - tea table",
+                    "rotationY": 105,
+                    "linkedPhotoId": "036"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY": 170,
+                    "linkedPhotoId":"035"
+                }
+            ]
+        },
+        "035":{
+            "rotationOffset": -80,
+            "uri":"035_Floor3Room2-2.jpg",
+            "tooltips":[
+                {
+                    "type": "video",
+                    "rotationY": 160,
+                    "width": 2.560,
+                    "height": 1.240,
+                    "source":"Three-Cocktails.webm",
+                    "muted":true
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": 150,
+                    "width": 1.020,
+                    "height": 1.388,
+                    "source":"chalkboard-menu.jpg",
+                    "title": "TITLE",
+                    "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
+                    "attribution": "Photo by currystrumpet on flickr",
+                    "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+                }
+            ]
+        },
+        "036": {
+            "rotationOffset": 5,
+            "uri":"036_Floor3Room2-3.jpg",
+            "tooltips":[
+                {
+                    "text": "Room 6 - front",
+                    "rotationY":150,
+                    "linkedPhotoId":"034"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY":-170,
+                    "linkedPhotoId":"035"
+                },
+                {
+                    "text":"Third floor hallway",
+                    "rotationY":-160,
+                    "linkedPhotoId":"029"
+                }
+            ]
+        }
+    }
 }
