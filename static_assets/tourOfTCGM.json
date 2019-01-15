@@ -20,8 +20,8 @@
          }
       },
       "ambient": {
-         "uri": "cafe.wav",
-         "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+         "uri": "audio/calm-street-samuelgremaud.wav",
+         "attributionUri": "https://freesound.org/people/SamuelGremaud/sounds/454856/",
          "loop": true,
          "volume": 0.50
       }
@@ -79,6 +79,7 @@
                 },
                 {
                     "type": "textblock",
+                    "title": "The Colored Girls Museum",
                     "text": "Painted wood block sign for the museum",
                     "attribution": "The Colored Girls Museum",
                     "rotationY": 12,    
@@ -103,7 +104,7 @@
             }
             ]
         },
-        "005":{ 
+        "005":{
             "rotationOffset": 65,
             "uri":"005_FloorHallway1.jpg",
             "tooltips":[
@@ -126,6 +127,25 @@
                     "text":"Stairs to second floor",
                     "rotationY": 142,
                     "linkedPhotoId":"013"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 175,
+                    "width": 2.0,
+                    "height": 1.5,
+                    "source":"flat/Hall1_01.JPG",
+                    "text": "Photo of curators",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": -80,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Hall1_02.JPG",
+                    "title": "Urgent Care: A Social Experience",
+                    "text": "Urgent Care is a Public Art Performance which requires the colored girl to be outlaw and heroine --Vashti Dubois",
+                    "attribution": "The Colored Girls Museum"
                 }
             ]
         },
@@ -145,23 +165,41 @@
                 },
                 {
                     "type": "image",
-                    "rotationY": -105,
-                    "width": 1.320,
-                    "height": 1.000,
-                    "source":"imgs/558C8743.JPG",
-                    "text": "Girl on Wood painting",
-                    "attribution": "Photo by ",
+                    "rotationY": -95,
+                    "width": 1.0,
+                    "height": 1.5,
+                    "source":"flat/Room1_03.JPG",
+                    "text": "Girl on Broken Wood painting",
+                    "attribution": "The Colored Girls Museum",
                     "attributionUri": ""
                 },
                 {
                     "type": "image",
                     "rotationY": -55,
-                    "width": 1.280,
-                    "height":0.950,
-                    "source":"imgs/558C8733.jpg",
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Room1_01.jpg",
                     "text": "Woman Painting",
-                    "attribution": "Photo by ",
+                    "attribution": "The Colored Girls Museum",
                     "attributionUri": ""
+                },
+                {
+                    "type": "image",
+                    "rotationY": 50,
+                    "width": 1.0,
+                    "height": 1.0,
+                    "source":"flat/Room1_05.jpg",
+                    "text": "Paddle with symbol",
+                    "attribution": "The Colored Girls Museum",
+                    "attributionUri": ""
+                },
+                {
+                    "type": "textblock",
+                    "text": "The Colored Girls Museum is Sanctuary not for Colored Girls Only, but for anyone who is ready for a conscious revolution. - Vashti Dubois",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 150,    
+                    "width": 1.5,
+                    "height": 1.5
                 }
             ]
         },
@@ -178,6 +216,33 @@
                     "text":"First floor hallway",
                     "rotationY": 125,
                     "linkedPhotoId":"005"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 0,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Room1_02.jpg",
+                    "text": "Girl on Wood painting",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "image",
+                    "rotationY": -140,
+                    "width": 1.75,
+                    "height": 1.5,
+                    "source":"flat/Room1_04.jpg",
+                    "text": "Small sticks and masks in frame",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 150,
+                    "width": 1.5,
+                    "height": 1.0,
+                    "source":"flat/Room1_07.jpg",
+                    "text": "Photo of three women",
+                    "attribution": "The Colored Girls Museum"
                 }
             ]
         },
@@ -575,6 +640,34 @@
                     "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
                     "attribution": "Photo by currystrumpet on flickr",
                     "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": 12,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/03_01_edit.JPG",
+                    "title": "TITLE",
+                    "text": "Painted wooden sign for the museum",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "textblock",
+                    "text": "Painted wood block sign for the museum",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 12,    
+                    "width": 1.5,
+                    "height": 1.5
+                },
+                {
+                    "type": "image",
+                    "rotationY": -105,
+                    "width": 1.320,
+                    "height": 1.000,
+                    "source":"flat/Room1_01.JPG",
+                    "text": "Girl on Wood painting",
+                    "attribution": "Photo by ",
+                    "attributionUri": ""
                 }
             ]
         },
