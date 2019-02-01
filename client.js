@@ -9,15 +9,14 @@ function init(bundle, parent, options = {}) {
     fullScreen: true,
     ...options,
   });
-  // new Location([0, 0, -2], [0, Math.PI / 2, 0]);
 
-  r360.renderToLocation(
+  r360.renderToSurface(
     r360.createRoot('TCGMTour'),
-    new Location([0, 0, 0]),
+    r360.getDefaultSurface()
   );
 
   // Load the initial environment
-  // r360.compositor.setBackground(r360.getAssetURL('001_Outside1.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL('001_Outside1.jpg'));
 }
 
 window.React360 = { init };
