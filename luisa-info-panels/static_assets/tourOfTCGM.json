@@ -1,0 +1,696 @@
+{
+   "nav_icon": "ui/nav-icon-1.png",
+   "firstPhotoId":"001",
+   "firstPhotoRotation": 155,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "menu-click.wav",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         }
+      },
+      "ambient": {
+         "uri": "audio/calm-street-samuelgremaud.wav",
+         "attributionUri": "https://freesound.org/people/SamuelGremaud/sounds/454856/",
+         "loop": true,
+         "volume": 1.0
+      }
+   },
+   "photos":{
+        "001":{
+            "rotationOffset": 155,
+            "uri":"360/001_Outside1.jpg",
+            "tooltips":[
+            {
+                "text":"Garden",
+                "rotationY": 62.525,
+                "linkedPhotoId":"002"
+            },
+            {
+                "type": "textblock",
+                "title": "The Colored Girls Museum",
+                "text": "The Colored Girls Museum is a memoir museum, which honors the stories, experiences, and history of all colored girls.",
+                "attribution": "The Colored Girls Museum",
+                "rotationY": 35,
+                "width": 1.5,
+                "height": 1.5
+            }
+            ]
+        },
+        "002":{
+            "rotationOffset": 143,
+            "uri":"360/002_Outside2.jpg",
+            "tooltips":[
+                {
+                    "text":"Street",
+                    "rotationY": -134,
+                    "linkedPhotoId":"001"
+                },
+                {
+                    "text":"Front porch",
+                    "rotationY": 75,
+                    "linkedPhotoId":"003"
+                }
+            ]
+        },
+        "003":{
+            "rotationOffset": 155,
+            "uri":"360/003_Outside3.jpg",
+            "tooltips":[
+                {
+                    "text":"Side porch",
+                    "rotationY": 65,
+                    "linkedPhotoId":"004"
+                },
+                {
+                    "text":"Garden",
+                    "rotationY": -150,
+                    "linkedPhotoId":"002"
+                },
+                {
+                    "type": "textblock",
+                    "title": "The Colored Girls Museum",
+                    "text": "Painted wood block sign for the museum",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 12,    
+                    "width": 1.5,
+                    "height": 1.5
+                }
+            ]
+        },
+        "004":{
+            "rotationOffset": 195,
+            "uri":"360/004_Outside4.jpg",
+            "tooltips":[
+            {
+                "text":"First floor hallway",
+                "rotationY": 14,
+                "linkedPhotoId":"005"
+            },
+            {
+                "text":"Front porch",
+                "rotationY": -137,
+                "linkedPhotoId":"003"
+            }
+            ]
+        },
+        "005":{
+            "rotationOffset": 65,
+            "uri":"360/005_FloorHallway1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1",
+                    "rotationY": 68,
+                    "linkedPhotoId":"007"
+                },
+                {
+                    "text":"Side porch",
+                    "rotationY": 2,
+                    "linkedPhotoId":"004"
+                },
+                {
+                    "text":"Room 2",
+                    "rotationY": -175,
+                    "linkedPhotoId":"009"
+                },
+                {
+                    "text":"Stairs to second floor",
+                    "rotationY": 142,
+                    "linkedPhotoId":"013"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 175,
+                    "width": 2.0,
+                    "height": 1.5,
+                    "source":"flat/Hall1_01.JPG",
+                    "text": "Photo of curators",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": -80,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Hall1_02.JPG",
+                    "title": "Urgent Care: A Social Experience",
+                    "text": "Urgent Care is a Public Art Performance which requires the colored girl to be outlaw and heroine --Vashti Dubois",
+                    "attribution": "The Colored Girls Museum"
+                }
+            ]
+        },
+        "006":{
+            "rotationOffset": -15,
+            "uri":"360/006_Floor1Room1-1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1",
+                    "rotationY": -150,
+                    "linkedPhotoId":"007"
+                },
+                {
+                    "text":"First floor hallway",
+                    "rotationY": 136,
+                    "linkedPhotoId":"005"
+                },
+                {
+                    "type": "image",
+                    "rotationY": -95,
+                    "width": 1.0,
+                    "height": 1.5,
+                    "source":"flat/Room1_03.JPG",
+                    "text": "Girl on Broken Wood painting",
+                    "attribution": "The Colored Girls Museum",
+                    "attributionUri": ""
+                },
+                {
+                    "type": "image",
+                    "rotationY": -55,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Room1_01.jpg",
+                    "text": "Woman Painting",
+                    "attribution": "The Colored Girls Museum",
+                    "attributionUri": ""
+                },
+                {
+                    "type": "image",
+                    "rotationY": 50,
+                    "width": 1.0,
+                    "height": 1.0,
+                    "source":"flat/Room1_05.jpg",
+                    "text": "Paddle with symbol",
+                    "attribution": "The Colored Girls Museum",
+                    "attributionUri": ""
+                },
+                {
+                    "type": "textblock",
+                    "text": "The Colored Girls Museum is Sanctuary not for Colored Girls Only, but for anyone who is ready for a conscious revolution. - Vashti Dubois",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 150,    
+                    "width": 1.5,
+                    "height": 1.5
+                }
+            ]
+        },
+        "007":{
+            "rotationOffset": -100,
+            "uri":"360/007_Floor1Room1-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 1 - fireplace",
+                    "rotationY": 90,
+                    "linkedPhotoId":"006"
+                },
+                {
+                    "text":"First floor hallway",
+                    "rotationY": 125,
+                    "linkedPhotoId":"005"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 0,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/Room1_02.jpg",
+                    "text": "Girl on Wood painting",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "image",
+                    "rotationY": -140,
+                    "width": 1.75,
+                    "height": 1.5,
+                    "source":"flat/Room1_04.jpg",
+                    "text": "Small sticks and masks in frame",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "image",
+                    "rotationY": 150,
+                    "width": 1.5,
+                    "height": 1.0,
+                    "source":"flat/Room1_07.jpg",
+                    "text": "Photo of three women",
+                    "attribution": "The Colored Girls Museum"
+                }
+            ]
+        },
+        "008":{
+            "rotationOffset": -80,
+            "uri":"360/008_Floor1Room1-3.jpg",
+            "tooltips":[]
+        },
+        "009":{
+            "rotationOffset": 70,
+            "uri":"360/009_Floor1Room2-1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 2 - shelves",
+                "rotationY": 170,
+                "linkedPhotoId":"010"
+            },
+            {
+                "text": "Kitchen",
+                "rotationY": -175,
+                "linkedPhotoId": "011"
+            },
+            {
+                "text":"First floor hallway",
+                "rotationY": 15,
+                "linkedPhotoId":"005"
+            }
+            ]
+        },
+        "010":{
+            "rotationOffset": 90,
+            "uri":"360/010_Floor1Room2-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 2",
+                    "rotationY": -160,
+                    "linkedPhotoId":"009"
+                }
+            ]
+        },
+        "011":{
+            "rotationOffset": 40,
+            "uri":"360/011_Floor1Room3-1.jpg",
+            "tooltips":[
+            {
+                "text":"Kitchen 2",
+                "rotationY": 100,
+                "linkedPhotoId":"012"
+            },
+            {
+                "text":"Room 2",
+                "rotationY": 30,
+                "linkedPhotoId":"009"
+            }
+            ]
+        },
+        "012":{
+            "rotationOffset": 20,
+            "uri":"360/012_Floor1Room3-2.jpg",
+            "tooltips":[
+            {
+                "text":"Kitchen 1",
+                "rotationY": -15,
+                "linkedPhotoId":"011"
+            },
+            {
+                "text": "Room 2",
+                "rotationY": 11,
+                "linkedPhotoId": "009"
+            }
+            ]
+        },
+        "013":{
+            "rotationOffset": 170,
+            "uri":"360/013_Floor1Staircase.jpg",
+            "tooltips":[
+            {
+                "text":"Second floor landing",
+                "rotationY": 40,
+                "linkedPhotoId":"014"
+            },
+            {
+                "text":"First floor hallway",
+                "rotationY": 160,
+                "linkedPhotoId":"005"
+            }
+            ]
+        },
+        "014":{
+            "rotationOffset": 180,
+            "uri":"360/014_Floor2Hallway1.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 3",
+                    "rotationY": 0,
+                    "linkedPhotoId":"019"
+                },
+                {
+                    "text":"Room 4",
+                    "rotationY": 125,
+                    "linkedPhotoId":"020"
+                },
+                {
+                    "text":"Second floor hallway",
+                    "rotationY": 160,
+                    "linkedPhotoId":"016"
+                },
+                {
+                    "text":"Stairs to first floor",
+                    "rotationY": -175,
+                    "linkedPhotoId":"013"
+                }
+            ]
+        },
+        "015":{
+            "rotationOffset": -80,
+            "uri":"360/015_Floor2Hallway2.jpg",
+            "tooltips":[]
+        },
+        "016":{
+            "rotationOffset": -3,
+            "uri":"360/016_Floor2Hallway3.jpg",
+            "tooltips":[
+                {
+                    "text":"Room 5",
+                    "rotationY": -75,
+                    "linkedPhotoId":"023"
+                },
+                {
+                    "text":"Second floor landing",
+                    "rotationY": 90,
+                    "linkedPhotoId":"014"
+                },
+                {
+                    "text":"Stairs to third floor",
+                    "rotationY": 20,
+                    "linkedPhotoId":"028"
+                }
+            ]
+        },
+        "017":{
+            "rotationOffset": -80,
+            "uri":"360/017_Floor2Room1-1.jpg",
+            "tooltips":[]
+        },
+        "018":{
+            "rotationOffset": -80,
+            "uri":"360/018_Floor2Room1-2.jpg",
+            "tooltips":[]
+        },
+        "019":{
+            "rotationOffset": -160,
+            "uri":"360/019_Floor2Room1-3.jpg",
+            "tooltips":[
+                {
+                    "text":"Second floor landing",
+                    "rotationY": -140,
+                    "linkedPhotoId":"014"
+                }
+            ]
+        },
+        "020":{
+            "rotationOffset": 145,
+            "uri":"360/020_Floor2Room2-1.jpg",
+            "tooltips":[
+                {
+                    "text": "Room 4 - shelves",
+                    "rotationY": 40,
+                    "linkedPhotoId":"021"
+                },
+                {
+                    "text": "Second floor landing",
+                    "rotationY": -155,
+                    "linkedPhotoId": "014"
+                }
+            ]
+        },
+        "021":{
+            "rotationOffset": 90,
+            "uri":"360/021_Floor2Room2-2.jpg",
+            "tooltips":[
+                {
+                    "text":"Second floor landing",
+                    "rotationY": -100,
+                    "linkedPhotoId":"014"
+                },
+                {
+                    "text":"Room 4",
+                    "rotationY": -140,
+                    "linkedPhotoId":"020"
+                },
+                {
+                    "type": "textblock",
+                    "text": "This purse (handbag) belonged to my mother Ida Kent Stevens. She was born on a farm in Screven County, GA on December 26, 1908.",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 60,    
+                    "width": 1.5,
+                    "height": 1.5
+                }
+            ]
+        },
+        "022":{
+            "rotationOffset": -80,
+            "uri":"360/022_Floor2Room2-3.jpg",
+            "tooltips":[]
+        },
+        "023":{
+            "rotationOffset": -100,
+            "uri":"360/023_Floor2Room3-1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 5 - bed",
+                "rotationY": 20,
+                "linkedPhotoId":"024"
+            },
+            {
+                "text":"Second floor hallway",
+                "rotationY": -175,
+                "linkedPhotoId":"016"
+            }
+            ]
+        },
+        "024":{
+            "rotationOffset": -60,
+            "uri":"360/024_Floor2Room3-2.jpg",
+            "tooltips":[
+            {
+                "text":"Second floor hallway",
+                "rotationY": -170,
+                "linkedPhotoId":"016"
+            },
+            {
+                "text":"Room 5",
+                "rotationY": 170,
+                "linkedPhotoId":"023"
+            }
+            ]
+        },
+        "025":{
+            "rotationOffset": -80,
+            "uri":"360/025_Floor2Room3-3.jpg",
+            "tooltips":[]
+        },
+        "026":{
+            "rotationOffset": -80,
+            "uri":"360/026_Floor2Room3-3a.jpg",
+            "tooltips":[]
+        },
+        "027":{
+            "rotationOffset": -80,
+            "uri":"360/027_Floor2Room3-4.jpg",
+            "tooltips":[]
+        },
+        "028":{
+            "rotationOffset": 110,
+            "uri":"360/028_Floor2Staircase.jpg",
+            "tooltips":[
+            {
+                "text":"Third floor hallway",
+                "rotationY": -120,
+                "linkedPhotoId":"029"
+            },
+            {
+                "text":"Second floor hallway",
+                "rotationY": 0,
+                "linkedPhotoId":"016S"
+            }
+            ]
+        },
+        "029":{
+            "rotationOffset": 0,
+            "uri":"360/029_Floor3Hallway1.jpg",
+            "tooltips":[
+            {
+                "text":"Room 6",
+                "rotationY": 30,
+                "linkedPhotoId":"034"
+            },
+            {
+                "text":"Room 7",
+                "rotationY": -110,
+                "linkedPhotoId":"030"
+            },
+            {
+                "text":"Stairs to second floor",
+                "rotationY": 140,
+                "linkedPhotoId":"028"
+            }
+            ]
+        },
+        "030":{
+            "rotationOffset": -80,
+            "uri":"360/030_Floor3Room1-1.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": -102.793,
+                "linkedPhotoId":"031"
+            },
+            {
+                "text":"Floor 3 Hallway 1",
+                "rotationY": 63.843,
+                "linkedPhotoId":"029"
+            }
+            ]
+        },
+        "031":{
+            "rotationOffset": -80,
+            "uri":"360/031_Floor3Room1-1a.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-2",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1",
+                "rotationY": 63.843,
+                "linkedPhotoId":"030"
+            }
+            ]
+        },
+        "032":{
+            "rotationOffset": -80,
+            "uri":"360/032_Floor3Room1-2.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 1-3",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": 63.843,
+                "linkedPhotoId":"031"
+            }
+            ]
+        },
+        "033":{
+            "rotationOffset": -80,
+            "uri":"360/033_Floor3Room1-3.jpg",
+            "tooltips":[
+            {
+                "text":"Floor 3 Room 2-1",
+                "rotationY": -102.793,
+                "linkedPhotoId":"032"
+            },
+            {
+                "text":"Floor 3 Room 1-1a",
+                "rotationY": 63.843,
+                "linkedPhotoId":"031"
+            }
+            ]
+        },
+        "034":{
+            "rotationOffset": -55,
+            "uri":"360/034_Floor3Room2-1.jpg",
+            "tooltips":[
+                {
+                    "text":"Third floor hallway",
+                    "rotationY": -110,
+                    "linkedPhotoId":"029"
+                },
+                {
+                    "text":"Room 6 - tea table",
+                    "rotationY": 105,
+                    "linkedPhotoId": "036"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY": 170,
+                    "linkedPhotoId":"035"
+                }
+            ]
+        },
+        "035":{
+            "rotationOffset": -80,
+            "uri":"360/035_Floor3Room2-2.jpg",
+            "tooltips":[
+                {
+                    "type": "video",
+                    "rotationY": 160,
+                    "width": 2.560,
+                    "height": 1.240,
+                    "source":"Three-Cocktails.webm",
+                    "muted":true
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": 150,
+                    "width": 1.020,
+                    "height": 1.388,
+                    "source":"chalkboard-menu.jpg",
+                    "title": "TITLE",
+                    "text": "Lorem ipsum dolores sit amet scelerisque purum inter vitae non ago.",
+                    "attribution": "Photo by currystrumpet on flickr",
+                    "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+                },
+                {
+                    "type": "panelimage",
+                    "rotationY": 12,
+                    "width": 1.5,
+                    "height": 1.5,
+                    "source":"flat/03_01_edit.JPG",
+                    "title": "TITLE",
+                    "text": "Painted wooden sign for the museum",
+                    "attribution": "The Colored Girls Museum"
+                },
+                {
+                    "type": "textblock",
+                    "text": "Painted wood block sign for the museum",
+                    "attribution": "The Colored Girls Museum",
+                    "rotationY": 12,    
+                    "width": 1.5,
+                    "height": 1.5
+                },
+                {
+                    "type": "image",
+                    "rotationY": -105,
+                    "width": 1.320,
+                    "height": 1.000,
+                    "source":"flat/Room1_01.JPG",
+                    "text": "Girl on Wood painting",
+                    "attribution": "Photo by ",
+                    "attributionUri": ""
+                }
+            ]
+        },
+        "036": {
+            "rotationOffset": 5,
+            "uri":"360/036_Floor3Room2-3.jpg",
+            "tooltips":[
+                {
+                    "text": "Room 6 - front",
+                    "rotationY":150,
+                    "linkedPhotoId":"034"
+                },
+                {
+                    "text":"Room 6 - alcove",
+                    "rotationY":-170,
+                    "linkedPhotoId":"035"
+                },
+                {
+                    "text":"Third floor hallway",
+                    "rotationY":-160,
+                    "linkedPhotoId":"029"
+                }
+            ]
+        }
+    }
+}
